@@ -33,9 +33,10 @@ The Tank class defines a long-range heavy enemy capable of dynamic directional m
 
 ## 🔧 Technical Details
 
-- Rendering is handled via Java's AWT `Graphics` object using `drawImage()`.
+- Built a GUI using JPanel and AWT, with keypress and attack handled via Adapters.
 - User input is managed through `MouseListener` and `KeyListener` interfaces.
 - Enemy and player states are tracked using arrays and timers to manage animations and movements.
 - The game implements basic collision detection for hits and damage.
+-  Used multi-threading, timers, and double-buffering for smooth animation.
 
 
